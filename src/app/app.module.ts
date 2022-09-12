@@ -12,10 +12,16 @@ import { HomeComponent } from './home/home.component';
     HomeComponent,
   ],
   imports: [
-  BrowserModule,
+    BrowserModule,
     RouterModule.forRoot(APP_ROUTES)
   ],
   providers: [],
   bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {
+
+  public constructor() {
+    alert("start");
+  }
+
+}

@@ -7,6 +7,7 @@ module.exports = withModuleFederationPlugin({
   name: "mfe-alergias",
   exposes: {
     "./Module": "./src/app/alergias/alergias.module.ts",
+    "./Component": "./src/app/alergias/alergias-form.component.ts",
   },
 
   shared: {
